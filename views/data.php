@@ -3,7 +3,7 @@
         <div class="col-12 p-3">
             <img src="assets\img\ty.gif" alt="merci" class="img-fluid mt-5" width="1000">
             <h3 class="mt-5 text-center">Bonjour <?= $firstname . " ". $name ?></h3>
-            <p class="text-center mt-5">Recapitulatif du formaulaire ...</p>
+            <p class="text-center mt-5">Recapitulatif du formulaire ...</p>
             <ul class="text-center">
                 <li class="mt-3">Vous avez <?= $age ;?> ans</li>
                 <li class="mt-3"><?php 

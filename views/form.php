@@ -18,6 +18,7 @@
                         </option>
                     </select>
                 </div>
+                <!-- pattern="^[a-zA-Z ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ-]{2,}$"  -->
                 <p class="text-danger"><?= $errorList['gender'] ?? '' ?></p>
                 <!-- input pour le nom  -->
                 <div class="input-group flex-nowrap">
@@ -31,7 +32,7 @@
                             aria-label="Name"
                             aria-describedby="addon-wrapping"
                             title="Vous avez des chiffres dans votre nom vous ?"
-                            pattern="^[a-zA-Z ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ-]{2,}$"
+                            
                             required>
                 </div>
                 <p class="text-danger"><?= $errorList['name'] ?? '' ?></p>
